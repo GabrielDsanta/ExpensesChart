@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(33, 100%, 98%);
+}
+
+.AboveInfos{
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+    border-radius: 1rem;
+    width: 480px;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.PairAboveInfos{
+    margin-bottom: .6rem;
+    font-weight: 400;
+}
+
+.TitleAbove{
+    font-size: 28px;
+}
+
+.DivLogoAbove{
+    margin-top: 10px;
+}
+
+.BelowInfos{
+    background-color: #FFF;
+    border-radius: 1rem;
+}
+
+.TitleMain{
+    color: hsl(25, 47%, 15%);
+    font-size: 30px;
+    padding: 1.5rem 2rem;
+}
+
+.GraficDiv{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 4.5rem;
+    padding-left: 2rem;
+    height: 200px;
+}
+
+.MonDiv, .TueDiv, .WedDiv, .ThuDiv, .FriDiv, .SatDiv, .SunDiv{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin-right: .8rem;
+}
+
+.Mon, .Tue, .Wed, .Thu, .Fri, .Sat, .Sun{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+}
+
+.MonBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 38px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.TueBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 85px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.WedBar{
+    background-color: hsl(186, 34%, 60%);
+    width: 40px;
+    height: 145px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.ThuBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 75px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.FriBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 50px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.SatBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 110px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.SunBar{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 65px;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    margin-right: 10px;
+}
+
+.MonBar:hover, .TueBar:hover, .ThuBar:hover, .FriBar:hover, .SatBar:hover, .SunBar:hover{
+    cursor: pointer;
+    background-color: hsl(10, 79%, 65%, 50%);
+    transition: .3s;
+}
+
+.WedBar:hover{
+    cursor: pointer;
+    background-color: hsl(186, 34%, 60%, 50%);
+    transition: .3s;
+}
+
+.Line{
+    width: 420px;
+    height: 1px;
+    background-color: rgb(0, 0, 0, 15%);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+.DivOtherInfos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.DivRigthInfos{
+    text-align: right;
+}
+
+.LastMonth, .Total{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+}
+
+.Value, .Percentage{
+    color: hsl(25, 47%, 15%);
+}
+
+.Hide{
+    display:none;
+}
+
+.ValuesMonth{
+    background-color: hsl(25, 47%, 15%);
+    color: #FFF;
+    margin-bottom: .5rem;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: -10px;
+    margin-right: -11px;
+}
